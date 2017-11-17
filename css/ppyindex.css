@@ -1,0 +1,175 @@
+/*head*/
+.Atophead{
+	background-color: #165089;
+	height: 110px;
+	width: 100%;
+}
+.Atopheadimg{
+	left: 50%;
+	width: 110px;
+	transform: translateX(-50%);
+	position: relative;
+}
+.Atopexit{
+	vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    width: 68px;
+    font-size: 17px;
+    height: 32px;
+    color: #fff;
+    background-color: #165089;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 32px;
+    float: right;
+    right: 18%;
+    position: relative;
+    top: 35%;
+}
+.Atopexit:hover{
+	color: #fff;
+    background-color: #3071a9;
+    border-color: #285e8e;
+    text-decoration: none;
+}
+
+/*headend*/
+/*middle*/
+.Bmiddle{
+	background-image: url(../img/p_bannerbg.jpg);
+    background-repeat: repeat-x;
+	height: 568px;
+    position: relative;   
+}
+.BmiddleLeftImg{
+	position: absolute;
+    left: 10%;
+    top: 20%;
+    vertical-align: middle;
+}
+.BmiddleRightImg{
+	position: absolute;
+    right: 14%;
+    top: 23%;
+}
+.BmiddleContainer{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 482px;
+    background: rgba(255,255,255,0.80);
+    border-radius: 4px 4px 4px 4px;
+    z-index: 1;
+}
+.BmiddleContainerTitle{
+	background-color: #76BBFF;
+    border-radius: 4px;
+    height: 48px;
+}
+.BmiddleContainerTitleLeft,.BmiddleContainerTitleRight{
+	border-radius: 4px 4px 0px 0px;
+    cursor: pointer;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #FFFFFF;   
+    line-height: 48px;
+    text-align: center;
+}
+.BmiddleContainerTitleLeft{
+	width: 33.3%;
+    height: 48px;
+    background: #11508C;
+    float: left;
+}
+.BmiddleContainerTitleRight{
+    width: 33.3%;
+    background: #76BBFF;
+    white-space: nowrap;
+    float: right;
+}
+.BmiddleContainerInput{
+	width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 80px;
+}
+.BmiddleContainerInputLeft,.BmiddleContainerInputRight{
+    cursor: pointer;	
+    height: 46px;
+    font-size: 18px;
+}
+.BmiddleContainerInputLeft{
+	width: 100%;
+    background: #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    font-family: PingFangSC-Light;
+    color: #999999;
+    padding: 0;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+.BmiddleContainerInputRight{
+	position: absolute;
+    right: -12px;
+    top: 0;
+    line-height: 48px;
+    height: 48px;
+    background: #00C7FF;
+    border-radius: 0px 4px 4px 0px;
+    font-family: PingFangSC-Regular;
+    color: #FFFFFF;
+    width: 30%;
+    text-align: center;
+}
+/*middleend*/
+/*middlebottom*/
+.BmiddleBottomContainer{
+	margin-bottom: 20px;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.BmiddleBottomContainer span{
+	display: table-cell;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+}
+/*middlebottomend*/
+
+/*bottom*/
+.BottomContainer {
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(63, 67, 66);
+	font-size: 14px;
+}
+
+.BottomContainer span {
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.BottomContainer img {
+	position: relative;
+	top: 4px;
+}
+
+.BottomContainer div {
+	position: relative;
+	margin-top: 10px;
+	color: white;
+}
+/*bottomend*/
